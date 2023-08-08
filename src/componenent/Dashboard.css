@@ -1,0 +1,40 @@
+.row{
+    text-align: left;
+}
+p   {
+    color: #536679; /* Set the text color */
+    text-shadow: #0c5b9b; /* Apply a subtle text shadow */
+    text-align: left;
+    block-size: 30px;
+  }
+  .sidebar-divider {
+    width: 10rem;
+    padding: 5px;
+    }
+    .sidebar-heading {
+        color: rgba(255,255,255,.4);
+    }
+
+.fa-solid ,fa-gear{
+        color: white;
+        padding-right: 10px;
+    }
+
+.unorder_dashboard{
+    
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+}
+.icon-names{
+    
+     text-decoration:"white";
+    font-size:"30px"
+    }
+span{
+        color:white;
+        padding-left: "30px";
+        
+    }
