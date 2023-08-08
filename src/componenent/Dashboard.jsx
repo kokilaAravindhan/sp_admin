@@ -69,17 +69,15 @@ const Dashboard = () => {
                   <div className="dropdown-content">
                     <p>Buttons</p>
                     <p>Cards</p>
-                    
                   </div>
                  )}
           </div>
         </div>
-        <div className='row'>
-          <div className='col-sm'>
-          <i class="fas fa-fw fa-wrench" style={{color:"white",fontSize:"15px", padding:"20px 10px 0 10px"}}></i>
-          <span className='heading-utilities'>Utilities</span>
-          </div>
-        </div>
+        <DashboardHeading
+          icon={<i class="fas fa-fw fa-wrench" style={{color:"white",fontSize:"15px", padding:"20px 10px 0 10px"}}></i>}
+          title={"Utilities"}
+          
+        /> 
         <div className='row'>
           <div className='col-sm'>
             <hr></hr>
