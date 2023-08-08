@@ -1,40 +1,38 @@
-.row{
-    text-align: left;
+
+.heading-classname{
+color: white;
+font-style:normal;
+padding: 20px 0 0 10px;
+
 }
-p   {
-    color: #536679; /* Set the text color */
+hr{
+    color: rgba(255,255,255,.4);   
+    
+}
+.interface-heading{
+    color: #2a5f94; /* Set the text color */
     text-shadow: #0c5b9b; /* Apply a subtle text shadow */
-    text-align: left;
-    block-size: 30px;
-  }
-  .sidebar-divider {
-    width: 10rem;
-    padding: 5px;
-    }
-    .sidebar-heading {
-        color: rgba(255,255,255,.4);
-    }
-
-.fa-solid ,fa-gear{
-        color: white;
-        padding-right: 10px;
-    }
-
-.unorder_dashboard{
-    
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
+    padding-left: 10px;
 }
-.icon-names{
-    
-     text-decoration:"white";
-    font-size:"30px"
-    }
-span{
-        color:white;
-        padding-left: "30px";
-        
-    }
+.heading-components{
+    padding-left: 10px;
+    color: beige;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.heading-utilities{
+    padding-left: 30px;
+    color: beige;
+}
+.heading-components:hover .dropdown-content {
+    display: block;
+  }
