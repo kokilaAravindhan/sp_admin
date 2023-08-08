@@ -19,7 +19,7 @@ const Dashboard = () => {
         position:"absolute",
         top: "0px",
         left:0,
-        width:"20rem",
+        width:"14rem",
         backgroundColor:"#4e73df",
         height:"300%"
     }}
